@@ -84,24 +84,9 @@
   }
   
   @media screen and (min-width: 1024px) {
-    .mobile {
-      display: none;
-    }
     .navigationBar {
-      align-items: center;
-  
-      .desktop {
-        display: block;
-  
-        li {
-          font-size: 20px;
-          margin: 0 40px;
-        }
+        padding: 0px;
       }
-  
-      .hamburgerMenu {
-        display: none;
-      }
-    }
+    
   }
   

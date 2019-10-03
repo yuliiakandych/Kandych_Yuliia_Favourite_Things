@@ -219,7 +219,7 @@ header
       }
       picture
       {
-        margin: 20px;
+        margin: 10px;
         
       }
   }
@@ -252,3 +252,85 @@ header
 }
 
 // Desktop
+@media screen and (min-width: 1024px) {
+    body
+    {
+     background-color: white;
+     margin: auto;
+    
+    }
+    
+    header
+    {
+     background: url(../images/Desktop_hero.jpg) no-repeat center; 
+     background-size: cover;  
+     padding: 0 80px;
+    }
+    .homePlants 
+    {
+      h3 
+      {
+       font-size: 60px;
+      }
+      #para1
+      {
+      
+       font-size: 40px;
+       padding: 5px 320px 10px 320px;
+       text-align: center;
+       line-height: 50px;
+      };
+    }
+    .Gallery
+    {
+        h3
+        {
+          font-size: 60px;
+          text-transform: capitalize;
+          font-family: 'Montserrat', sans-serif;
+          text-align: center;
+        }
+        .plantsImg
+        {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          align-items: center;
+        }
+        picture
+        {
+          margin: 5px;
+        }
+picture:hover
+{
+    filter: contrast(120%);
+}
+
+    }
+    .thankYou
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+     }
+  #thankYouTitle
+   {
+      font-size: 60px;
+      margin-top: 35px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif;
+   }
+   #para2
+  {
+      font-family: $p_font-family;
+      font-size: 25px;
+      padding: 0px 275px 50px 275px;
+      text-align: center;
+      line-height: 45px;
+  };
+
+}

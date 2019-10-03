@@ -1,2 +1,2 @@
-
+footer{margin:auto;background:#4A4A4A;display:flex;flex-wrap:wrap;justify-content:center;position:relative;align-items:center}footer .logo{width:40vw;margin:30px;position:relative;align-items:center}footer p{font-family:'Montserrat', sans-serif;font-size:16px;padding:0px 35px 10px 35px;text-align:center;line-height:35px;color:white}@media screen and (min-width: 768px){footer{display:flex;flex-wrap:wrap;justify-content:center;position:relative;align-items:center;padding:100px}}@media screen and (min-width: 1024px){footer{display:flex;flex-wrap:wrap;justify-content:center;position:relative;align-items:center;padding:120px}}
 /*# sourceMappingURL=footer.css.map */

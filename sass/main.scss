@@ -4,13 +4,14 @@
 
 body
 {
-    background-color: white;
-    margin: auto;
+ background-color: white;
+ margin: auto;
 }
+
 header
 {
-background: url(../images/Mobile_hero.jpg) no-repeat center; 
-background-size: cover;  
+ background: url(../images/Mobile_hero.jpg) no-repeat center; 
+ background-size: cover;  
 }
 
 .overflow 
@@ -20,67 +21,234 @@ background-size: cover;
 
 .hidden 
 {
-display: none;
+ display: none;
 }
 
-h3 {
-    font-size: $h3_fontSize;
-    margin: 80px 0 20px 0;
-    text-transform: uppercase;
-    line-height: 1.1em;
-  }
+h3 
+{
+ font-size: $h3_fontSize;
+ margin: 80px 0 20px 0;
+ text-transform: uppercase;
+ line-height: 1.1em;
+}
 #mainTitle
 {
  color: white;
+ font-family: 'Sriracha', cursive;
 }
-
-
   
 header
 {
-height: 100vh;
-min-height: 800px;
+ height: 100vh;
+ min-height: 800px;
 }
 
 .logo 
 {
-height: 70px;
-margin-top: 10px;
+ height: 70px;
+ margin-top: 10px;
 }
-.hero {
+.hero 
+{
     margin: 20px;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
-    h3 {
+    h3 
+    {
       font-size: 8vw;
       margin: 100px 0 20px 0;
       text-align: left;
       text-transform: capitalize;
     }
-    .scroll {
+    .scroll 
+    {
       display: none;
       position: absolute;
     }
   }
-  .description {
-    h4 {
+
+  .description 
+  {
+    h4 
+    {
       font-size: $description;
       font-weight: 400;
     }
   }
 
-  .homePlants {
-    .wrapper {
-      padding:40px;
+  .homePlants 
+  {
+    h3 
+    {
+     font-size: 8vw;
+     margin-top: 30px;
+     text-align: center;
+     text-transform: capitalize;
+     font-family: 'Montserrat', sans-serif;
     }
-    h3 {
-        font-size: 8vw;
-        margin: 30px 0 20px 0;
-        text-align: center;
-        text-transform: capitalize;
-      }
+    #para1
+    {
+     font-family: $p_font-family;
+     font-size: 25px;
+     padding: 5px 35px 10px 35px;
+     text-align: center;
+     line-height: 35px;
+    };
 
   }
+  .Gallery
+  {
+      h3
+      {
+        font-size: 8vw;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+      }
+      .plantsImg
+      {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+      }
+      img
+      {
+        margin: 5px;
+        border: solid 2px;
+        border-color: #C9C9C9;
+        border-radius: 20px;
+      }
+  }
+
+.thankYou
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+   }
+#thankYouTitle
+ {
+    font-size: 8vw;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+ }
+ #para2
+{
+    font-family: $p_font-family;
+    font-size: 25px;
+    padding: 0px 35px 10px 35px;
+    text-align: center;
+    line-height: 35px;
+};
+
+// Tablet 
+@media screen and (min-width: 768px) {
+    body
+{
+ background-color: white;
+ margin: auto;
+}
+
+header
+{
+ background: url(../images/Tablet_hero.jpg) no-repeat center; 
+ background-size: cover;  
+}
+  
+
+  
+    .logo 
+    {
+      height: 8vw;
+    }
+  
+    .hero {
+    
+      h3 
+      {
+        font-size: 60px;
+        margin-top: 100px;
+      }
+     
+    }
+    .homePlants 
+    {
+      h3 
+      {
+       font-size: 50px;
+       margin-top: 30px;
+       text-align: center;
+       text-transform: capitalize;
+       font-family: 'Montserrat', sans-serif;
+      }
+      #para1
+      {
+       font-family: $p_font-family;
+       font-size: 35px;
+       padding: 5px 50px 10px 50px;
+       text-align: center;
+       line-height: 45px;
+      };
+    }
+
+    .Gallery
+  {
+      h3
+      {
+        font-size: 50px;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+      }
+      .plantsImg
+      {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+      }
+      picture
+      {
+        margin: 20px;
+        
+      }
+  }
+
+  .thankYou
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+   }
+#thankYouTitle
+ {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+ }
+ #para2
+{
+    font-family: $p_font-family;
+    font-size: 25px;
+    padding: 0px 175px 10px 175px;
+    text-align: center;
+    line-height: 45px;
+};
+
+}
+
+// Desktop

@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,700,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
@@ -58,7 +59,7 @@
                     <div class="wrapper">
                       <div class="description">
                         <h3>Home Plants</h3>
-                        <p>
+                        <p id="para1">
                             Cute babies in 
                             small pots! 
                             Adorable and beautiful!
@@ -70,7 +71,61 @@
                       </div> 
                       </section>
                       </section>
-                            
+
+                      <section class="Gallery">
+                        <h3>Gallery</h3>
+                        <div class="plantsImg">
+                          <picture>
+                            <source srcset="images/desktop_gallery_pic1.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                              <source srcset="images/tablet_gallery_pic1.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                              <img src="images/mobile_gallery_pic1.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                            <picture>
+                              <source srcset="images/desktop_gallery_pic2.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                                <source srcset="images/tablet_gallery_pic2.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                                <img src="images/mobile_gallery_pic2.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                            <picture>
+                                <source srcset="images/desktop_gallery_pic3.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                                  <source srcset="images/tablet_gallery_pic3.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                                  <img src="images/mobile_gallery_pic3.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                            <picture>
+                                <source srcset="images/desktop_gallery_pic4.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                                  <source srcset="images/tablet_gallery_pic4.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                                  <img src="images/mobile_gallery_pic4.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                            <picture>
+                                <source srcset="images/desktop_gallery_pic5.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                                  <source srcset="images/tablet_gallery_pic5.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                                  <img src="images/mobile_gallery_pic5.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                            <picture>
+                                <source srcset="images/desktop_gallery_pic6.jpg" alt="cactus" class="galleryPic" media="(min-width: 1024px)">
+                                  <source srcset="images/tablet_gallery_pic6.jpg" alt="cactus" class="galleryPic" media="(min-width: 768px)">
+                                  <img src="images/mobile_gallery_pic6.jpg" alt="cactus" class="galleryPic">
+                            </picture>
+                        </div>
+                      </section>
+
+                      <section class="thankYou!">
+                        <h3 id="thankYouTitle">Thank You!</h3>
+                        <div id="para2">
+                          <p>I hope you like those 
+                            awesome little guys! </p>
+                        </div>
+                      </section>
+                      <footer>
+                          <h2 class="hidden">Footer</h2>
+                          <a href="index.html"><img class="logo" src="images/Logo.svg" alt="logo"
+                          /></a>
     
+                          <p>Copyright (c) 2019 All Rights Reserved</p>
+                        </footer>
+
+
+                            
+                      <script src="js/hamburger.js"></script>
+                      <script src="js/scroll.js"></script>  
 </body>
 </html>

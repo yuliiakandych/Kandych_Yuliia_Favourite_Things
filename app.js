@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   console.log('at the home route');
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/views/index.html'));
 })
 
 

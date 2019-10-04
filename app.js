@@ -1,17 +1,21 @@
 const express = require('express');
+const path = require('path');
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
-  res.send('Hello world');
+  console.log('at the home route');
+  res.sendFile(path.join(__dirname + '/index.html'));
 })
 
-app.get('/contact')
 
 
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+
+app.listen(port, () => {
+  console.log(`Server running at ${port}`);
 });

@@ -1,3 +1,4 @@
+//sass --watch sass:css --style compressed
 @import "modules/navbar";
 @import "vars";
 @import "modules/footer";
@@ -62,12 +63,10 @@ header
       margin: 100px 0 20px 0;
       text-align: left;
       text-transform: capitalize;
+      color:#3C3C3C;
     }
-    .scroll 
-    {
-      display: none;
-      position: absolute;
-    }
+
+    
   }
 
   .description 
@@ -81,6 +80,7 @@ header
 
   .homePlants 
   {
+   
     h3 
     {
      font-size: 8vw;
@@ -88,6 +88,7 @@ header
      text-align: center;
      text-transform: capitalize;
      font-family: 'Montserrat', sans-serif;
+    
     }
     #para1
     {
@@ -327,7 +328,7 @@ picture:hover
    #para2
   {
       font-family: $p_font-family;
-      font-size: 25px;
+      font-size:40px;
       padding: 0px 275px 50px 275px;
       text-align: center;
       line-height: 45px;

@@ -11,45 +11,19 @@
     cursor: pointer;
   }
   
-  .desktop {
-    padding: 20px;
-    ul {
-      display: flex;
-    }
-    li {
-      padding: 20px;
-      list-style-type: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      border-radius: 10px;
-      &:hover {
-        background: #fff;
-        color: #280d61;
-        a {
-          color: #280d61;
-        }
-      }
-      &:active {
-        opacity: 1;
-        background: #fff;
-        color: #280d61;
-        a {
-          color: #280d61;
-        }
-      }
-    }
-  }
   
-  .hamburgerMenu {
+  .hamburgerMenu 
+  {
     height: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
     div {
       width: 40px;
       height: 5px;
-      background: white;
+      background:white;
       border-radius: 20px;
     }
   }
@@ -59,7 +33,7 @@
   }
   
   .mobile {
-    background: rgba(237, 255, 252, 0.9);
+    background: rgba(31, 160, 139, 0.9);
     z-index: 1;
     height: 100vh;
     width: 100%;
@@ -69,7 +43,8 @@
   
     li {
       padding: 20px;
-      font-size: 10vw;
+      font-size: 30px;
+
     }
   }
   
@@ -77,16 +52,4 @@
     display: block;
   }
   
-  @media screen and (min-width: 1024px) {
-    .navigationBar {
-      padding: 0px;
-    }
-  }
-  
-  @media screen and (min-width: 1024px) {
-    .navigationBar {
-        padding: 0px;
-      }
-    
-  }
   

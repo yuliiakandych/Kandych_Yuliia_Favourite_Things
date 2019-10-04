@@ -1,6 +1,6 @@
 (() => {
   const scrollTo = document.querySelectorAll(".scrollTo");
-  console.log("aa", scrollTo.textContent);
+  console.log("fired", scrollTo.textContent);
 
   scrollTo.forEach(e => e.addEventListener("click", scrollto));
 

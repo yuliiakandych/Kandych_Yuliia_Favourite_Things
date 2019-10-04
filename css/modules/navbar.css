@@ -1,0 +1,2 @@
+.navigationBar{display:flex;justify-content:space-between;align-items:center;padding:0 20px;margin-bottom:20px;margin-top:40px}.scrollTo{cursor:pointer}.hamburgerMenu{height:40px;display:flex;flex-direction:column;align-items:center;justify-content:space-around}.hamburgerMenu div{width:40px;height:5px;background:white;border-radius:20px}.navBar{display:none}.mobile{background:rgba(31,160,139,0.9);z-index:1;height:100vh;width:100%;position:absolute;flex-direction:column;left:0}.mobile li{padding:20px;font-size:30px}.toggle{display:block}
+/*# sourceMappingURL=navbar.css.map */

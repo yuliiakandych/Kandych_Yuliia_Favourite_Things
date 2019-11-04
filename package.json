@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "start": "nodemon app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.5"
+    "hbs": "^4.0.5",
+    "sass": "^1.23.3"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.2.0"
+    "gulp-cli": "^2.2.0",
+    "nodemon": "^1.19.4"
   }
 }

@@ -6,14 +6,15 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.set('view engine', 'hbs');
-app.set('views', __dirname + '/views');
+app.set('views', path.join(__dirname + '/views'));
 
-app.get('/', (req, res) => {
-  console.log('at the home route');
-  res.render("home");
+app.use('/', require('./routes/index.js'));
+
+app.listen(port, ()=>{
+  console.log(`app is runng on ${port}`);
 })
 
 
@@ -22,6 +23,3 @@ app.get('/', (req, res) => {
 
 
 
-app.listen(port, () => {
-  console.log(`Server running at ${port}`);
-});

@@ -1,6 +1,6 @@
-# Home Plants World!!
+# Favourite Things
 
-Welcome to small website about home plants!  
+Cute Home plants
 
 ## Build with
 * **HTML5**
@@ -15,11 +15,6 @@ Welcome to small website about home plants!
  - Browser : localhost:3000
 
 
-## Deployment
-
-Heroku hosting service:
-https://kandych-y-promo-app.herokuapp.com/
-
 ## Workspace (development)
 * Visual Studio Code
 * Terminal
@@ -27,7 +22,6 @@ https://kandych-y-promo-app.herokuapp.com/
 
 ## Workspace (design)
 * Adobe XD
-* Adobe Photoshop
 
 ## Author 
 * **Julia Kandych**

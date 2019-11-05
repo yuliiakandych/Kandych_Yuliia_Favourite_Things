@@ -17,7 +17,7 @@ router.get('/', (req,res)=>{
    })
 })
 
-router.get('/:id', (req,res) =>{
+router.get('/users/:id', (req,res) =>{
     console.log("popingup");
     console.log(req.params.id)
     let query = `Select * from tbl_plants where ID=${req.params.id} `;

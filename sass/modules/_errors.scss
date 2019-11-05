@@ -1,0 +1,52 @@
+.hidden
+{
+    display: none;
+}
+
+#errorPage
+{
+ background: url(../images/errorBG.jpg) no-repeat center; 
+ background-size: cover;  
+ //background-color: rgba(31, 160, 139, 0.9);
+color:white;
+font-family: 'Sriracha', cursive;
+margin-top: 60px;
+
+    
+}
+.error-section 
+{
+   
+    color:white;
+    text-decoration: none;
+    font-size: 10vh;
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+
+.backHome
+{
+padding: 30px;
+color: white;
+font-family: 'Sriracha', cursive;
+// background-color: red;
+font-size: 5vh;
+}
+
+#ops
+{
+    color: white;
+    font-family: 'Sriracha', cursive;
+}
+
+#fours
+{
+    font-size: 20vh;
+    margin-right: 100px;
+    color:white;
+    font-family: 'Sriracha', cursive;
+    
+}

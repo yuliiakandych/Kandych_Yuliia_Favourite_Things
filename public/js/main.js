@@ -11,7 +11,7 @@ function parseData(plant){
 function gettingData(e){
     e.preventDefault();
     console.log("clicked");
-    let url = `/${this.getAttribute('href')}`
+    let url = `/users/${this.getAttribute('href')}`
     console.log(url)
 
     fetch(url)

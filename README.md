@@ -10,11 +10,6 @@ Cute Home plants
 * **Express**
 * **Gulp**
 
-##Run the app
- - Terminal: npm start
- - Browser : localhost:3000
-
-
 ## Workspace (development)
 * Visual Studio Code
 * Terminal
@@ -25,3 +20,6 @@ Cute Home plants
 
 ## Author 
 * **Julia Kandych**
+
+## Future Plans
+
